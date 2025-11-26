@@ -131,11 +131,6 @@ def configure_dspy_local(model_name: str = "phi3.5:3.8b-mini-instruct-q4_K_M"):
     dspy.configure(lm=lm)
     return lm
 
-def configure_dspy_openai(model_name: str = "gpt-4o-mini"):
-    lm = dspy.LM(model=f"openai/{model_name}", temperature=0.1, max_tokens=1024)
-    dspy.configure(lm=lm)
-    return lm
-
 if __name__=="__main__":
     print("Testing DSPy modules...")
     try:
