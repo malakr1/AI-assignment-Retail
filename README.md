@@ -2,9 +2,9 @@
 
 A hybrid AI agent that combines retrieval-augmented generation (RAG) and SQL query generation to answer retail analytics questions. Built with LangGraph, DSPy, and local LLM support via Ollama.
 
-## Important Note: Date Discrepancy
+## Important Note: Date Issue
 
-⚠️ **Known Issue**: The original assignment instructions reference dates from 1997 (e.g., "Summer Beverages 1997", "Winter Classics 1997"). However, the Northwind SQLite database provided via the download link:
+**Known Issue**: The original assignment instructions reference dates from 1997 (e.g., "Summer Beverages 1997", "Winter Classics 1997"). However, the Northwind SQLite database provided via the download link:
 
 ```
 https://raw.githubusercontent.com/jpwhite3/northwind-SQLite3/main/dist/northwind.db
