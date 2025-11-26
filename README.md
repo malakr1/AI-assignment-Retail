@@ -130,9 +130,6 @@ search)
 ```
 
 ## Configuration
-
-### Using Different Models
-
 ```python
 # Local Ollama model
 from agent.dspy_signatures import configure_dspy_local
